@@ -38,7 +38,10 @@ SyntaxHighlighter::SyntaxHighlighter(QObject *parent)
     << "do"
     << "else"
     << "enum"
+    << "emit"
     << "false"
+    << "False"
+    << "FALSE"
     << "for"
     << "forward"
     << "if"
@@ -51,9 +54,13 @@ SyntaxHighlighter::SyntaxHighlighter(QObject *parent)
     << "stock"
     << "tagof"
     << "true"
+    << "True"
+    << "TRUE"
+    << "goto"
+    << "break"
+    << "continue"
     << "while";
 }
-
 SyntaxHighlighter::~SyntaxHighlighter() {
   // nothing
 }
