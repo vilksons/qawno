@@ -61,6 +61,7 @@ SyntaxHighlighter::SyntaxHighlighter(QObject *parent)
     << "continue"
     << "while";
 }
+
 SyntaxHighlighter::~SyntaxHighlighter() {
   // nothing
 }
