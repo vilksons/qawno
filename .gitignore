@@ -7,5 +7,6 @@ qawno.qrc.depends
 *Makefile
 /qrc_qawno.cpp
 /ui_*.h
-
+qawno_autogen/
 CMakeFiles/
+.gitignore
